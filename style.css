@@ -1,14 +1,33 @@
 body {
 
-    .center {
-        display: block;
-        margin-left: auto;
-        margin-right: auto; 
-        width: 50%
+}
 
-        }
+#city-img {
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  .container {
+      background-image: url("https://i.pinimg.com/originals/ac/53/8b/ac538b3458b5f12b7adb056f24b25c3e.jpg");
+      height: 500px; 
+      padding: 50px; 
+
+  }
+
+  #nav-row {
+      justify-content: center;
+      position: relative; 
+      bottom: -300px;
 
 }
+
+    .btn {
+        margin: 10px; 
+    }
+
+
+
+
    
     
 
