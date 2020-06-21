@@ -1,5 +1,31 @@
 body {
+    padding: 20px; 
+    background-color: #dfcaae; 
 
+}
+
+h1 {
+    text-align: center;
+}
+
+.box-shadow {
+    box-shadow:  5px 10px 8px #888;
+} 
+
+#bio-text {
+
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.padding-20 {
+    padding: 20px; 
+}
+
+.padding-0 {
+    padding: 0px; 
 }
 
 #city-img {
@@ -7,12 +33,14 @@ body {
     width: 50%;
   }
 
-  .container {
+  #jumbo {
       background-image: url("https://i.pinimg.com/originals/ac/53/8b/ac538b3458b5f12b7adb056f24b25c3e.jpg");
       height: 500px; 
       padding: 50px; 
+      box-shadow: black;
 
   }
+
 
   #nav-row {
       justify-content: center;
@@ -21,9 +49,19 @@ body {
 
 }
 
+#about-me { 
+    text-align: center; 
+    
+}
+
     .btn {
         margin: 10px; 
     }
+
+    .navbar {
+        padding: 0px; 
+    }
+     
 
 
 
