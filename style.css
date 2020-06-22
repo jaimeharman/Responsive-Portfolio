@@ -1,106 +1,119 @@
 body {
-    padding: 20px; 
-    background-color: #dfcaae; 
-
+  padding: 20px;
+  background-color: #dfcaae;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .box-shadow {
-    box-shadow:  5px 10px 8px #888;
-} 
+  box-shadow: 5px 10px 8px #888;
+}
 
 #bio-text {
-    padding: 20px; 
-    background-color: #e5e5e5;
-    border-radius: 5px;
-    margin-top:60px;
-    /* margin: 0;
+  padding: 20px;
+  background-color: #e5e5e5;
+  border-radius: 5px;
+  margin-top: 60px;
+  /* margin: 0;
     position: absolute;
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%); */
+}
 
+#portfolio {
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+#contact {
+  margin-top: 40px;
+  margin-bottom: 75px;
+}
+
+.btn-dark {
+  color: white !important;
+}
+
+nav {
+  border: 2px solid rgba(52, 58, 64, 0.5);
+  border-radius: 5px;
+}
+
+#contactform {
+  background-color: rgba(52, 58, 64, 1);
+  border-radius: 5px;
+  color: whitesmoke;
+  padding: 20px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  box-shadow: 5px 10px 8px #888;
 }
 
 img {
-    border-radius: 5px;
+  border-radius: 5px;
 }
 
 .margin-top-20 {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .padding-20 {
-    padding: 20px; 
+  padding: 20px;
 }
 
 .padding-0 {
-    padding: 0px; 
+  padding: 0px;
 }
 
 #city-img {
-    margin: 0 auto;
-    width: 50%;
-  }
-
-  #jumbo {
-      background-image: url("assets/images/city-bg.jpg");
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-size: cover;
-      overflow: hidden;
-      height: 350px; 
-      width: 100%;
-      padding: 50px; 
-      box-shadow: black;
-      border-radius: 5px;
-
-  }
-
-
-  #nav-row {
-      justify-content: center;
-      position: relative; 
-      top: 65%;
-    
-
+  margin: 0 auto;
+  width: 50%;
 }
 
-#about-me { 
-    text-align: center; 
-    height: 700px;
+#jumbo {
+  background-image: url("assets/images/city-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  height: 350px;
+  width: 100%;
+  padding: 50px;
+  box-shadow: black;
+  border-radius: 5px;
 }
 
-    .btn {
-        margin: 10px; 
-    }
+#nav-row {
+  justify-content: center;
+  position: relative;
+  top: 65%;
+}
 
-    .navbar {
-        padding: 0px; 
-    }
-     
-    #copyright {
-        text-align: center;
-        padding: 20px; 
+#about-me {
+  text-align: center;
+  height: 700px;
+}
 
-    }
+.btn {
+  margin: 10px;
+}
 
+.navbar {
+  padding: 0px;
+}
 
+#copyright {
+  text-align: center;
+  padding: 20px;
+}
 
-
-   
-    
-
-        
-
-
-  
-        
-        
-        
-
-
-
+.footer {
+  width: 100%;
+  text-align: center;
+  padding-top: 5px;
+  color: black;
+  background-color: #9c9a9a;
+}

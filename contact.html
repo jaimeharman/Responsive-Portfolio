@@ -9,14 +9,15 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link rel="style sheet" href="contactstyle.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="stylesheet" href="style.css">
 
   <title>Contact</title>
 
 </head>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Jaime Harman</a>
+  <a class="navbar-brand" style="padding-left: 10px;" href="#">Jaime Harman</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
     aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -34,47 +35,45 @@
         <a class="nav-link" href="contact.html">Contact</a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
   </div>
+
+  <div class="col-md-6">
+    <a href="https://www.linkedin.com/in/jaime-harman-348a9150" target="_BLANK"><i
+        class="fa-2x fab fa-linkedin"></i></a>
+    <a href="https://github.com/jaimeharman" target="_BLANK"><i class="fa-2x fab fa-github-square"></i></a>
+  </div>
+
 </nav>
 
 
 <body>
-  <h1>Contact</h1>
+  <h1 id="contact">Contact</h1>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-10">
+
+  <main class="container" id="contactform">
+    <form>
+      <div class="form-group">
+        <label for="exampleFromControlInput1">Name</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name">
       </div>
-    </div>
-  </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput1" placeholder="name@example.com">Email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Comments</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-light">Submit</button>
+    </form>
+  </main>
 
-
-  <form>
-    <div class="form-group">
-      <label for="exampleFormControlInput1">Name</label>
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-    </div>
-    <div class="form-group">
-      <label for="exampleFormControlSelect1">Email</label>
-      <select class="form-control" id="exampleFormControlSelect1">
-        <option></option>
-      </select>
-    </div>
-    <div class="form-group">
-      <label for="exampleFormControlSelect2">Message</label>
-      <select multiple class="form-control" id="exampleFormControlSelect2">
-        <option></option>
-  </form>
-
-  <div class="navbar navbar-default navbar-fixed-bottom">
+  <footer class="navbar navbar-default navbar-fixed-bottom">
     <div class="footer">
-      <p>Copyright 2020 - Site built by Jaime Harman</p>
+      <p>&copy; Jaime Harman 2020</p>
     </div>
-  </div>
+  </footer>
+
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
