@@ -1,27 +1,24 @@
 html, body {
-    height: 100%;
+  height: 100%;
 }
 
 body {
-  padding: 20px;
+  padding: 5px;
   background-color: #dfcaae;
   display: flex;
   flex-direction: column;
-  
 }
 
 .content {
-    flex: 1 0 auto;
+  flex: 1 0 auto;
+  /* height: 100%; */
+  overflow-y: auto;
 }
 
 footer {
-    background-color: #9c9a9a;
-    flex-shrink: 0;
-    /* position: relative;
-    height: 20px;
-    margin-bottom: 0;
-    bottom: 0;
-    width: 100%; */
+  background-color: #9c9a9a;
+  flex-shrink: 0;
+
 }
 
 h1 {
@@ -63,7 +60,6 @@ nav {
   border-radius: 5px;
 }
 
-
 #contactform {
   background-color: rgba(52, 58, 64, 1);
   border-radius: 5px;
@@ -76,6 +72,11 @@ nav {
 
 img {
   border-radius: 5px;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
 }
 
 .margin-top-20 {
@@ -132,3 +133,24 @@ img {
   padding: 20px;
 }
 
+#gala {
+  height: 500px;
+  width: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  #gala {
+    height: 250px;
+
+}
+#portfolio-row {
+  flex-direction: row;
+}
+
+
+@media only screen and (max-width: 768px) {
+  #portfolio-row { 
+    flex-direction: column;
+
+  }
+}
