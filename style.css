@@ -2,6 +2,41 @@ html, body {
   height: 100%;
 }
 
+/* Top of Page Elements */
+h1 {
+  text-align: center;
+}
+
+.navbar {
+  padding: 0px;
+}
+
+#nav-row {
+  justify-content: center;
+  position: relative;
+  top: 65%;
+}
+
+nav {
+  border: 2px solid rgba(52, 58, 64, 0.5);
+  border-radius: 5px;
+}
+
+#jumbo {
+  background-image: url("assets/images/city-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  height: 350px;
+  width: 100%;
+  padding: 50px;
+  box-shadow: black;
+  border-radius: 5px;
+}
+
+/* Middle of Page Elements */
+
 body {
   padding: 5px;
   background-color: #dfcaae;
@@ -11,23 +46,7 @@ body {
 
 .content {
   flex: 1 0 auto;
-  /* height: 100%; */
   overflow-y: auto;
-}
-
-footer {
-  background-color: #9c9a9a;
-  flex-shrink: 0;
-  padding: 5px;
-
-}
-
-h1 {
-  text-align: center;
-}
-
-.box-shadow {
-  box-shadow: 5px 10px 8px #888;
 }
 
 #bio-text {
@@ -48,15 +67,6 @@ h1 {
   margin-bottom: 75px;
 }
 
-.btn-dark {
-  color: white !important;
-}
-
-nav {
-  border: 2px solid rgba(52, 58, 64, 0.5);
-  border-radius: 5px;
-}
-
 #contactform {
   background-color: rgba(52, 58, 64, 1);
   border-radius: 5px;
@@ -67,8 +77,47 @@ nav {
   box-shadow: 5px 10px 8px #888;
 }
 
+#city-img {
+  margin: 0 auto;
+  width: 50%;
+}
+
+#about-me {
+  text-align: center;
+  height: 700px;
+}
+
 img {
   border-radius: 5px;
+}
+
+#copyright {
+  text-align: center;
+  padding: 20px;
+}
+
+#gala {
+  height: 500px;
+  width: auto;
+}
+
+/* Bottom of Page Styling */
+
+footer {
+  background-color: #9c9a9a;
+  flex-shrink: 0;
+  padding: 5px;
+
+}
+
+/* General Styling */
+
+.box-shadow {
+  box-shadow: 5px 10px 8px #888;
+}
+
+.btn-dark {
+  color: white !important;
 }
 
 .responsive {
@@ -88,56 +137,15 @@ img {
   padding: 0px;
 }
 
-#city-img {
-  margin: 0 auto;
-  width: 50%;
-}
-
-#jumbo {
-  background-image: url("assets/images/city-bg.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  overflow: hidden;
-  height: 350px;
-  width: 100%;
-  padding: 50px;
-  box-shadow: black;
-  border-radius: 5px;
-}
-
-#nav-row {
-  justify-content: center;
-  position: relative;
-  top: 65%;
-}
-
-#about-me {
-  text-align: center;
-  height: 700px;
-}
-
 .btn {
   margin: 10px;
-}
-
-.navbar {
-  padding: 0px;
-}
-
-#copyright {
-  text-align: center;
-  padding: 20px;
-}
-
-#gala {
-  height: 500px;
-  width: auto;
 }
 
 .text-center {
   text-align: center;
 }
+
+/* Media Queries */
 
 @media only screen and (max-width: 600px) {
   #gala {
@@ -147,7 +155,6 @@ img {
 #portfolio-row {
   flex-direction: row;
 }
-
 
 @media only screen and (max-width: 768px) {
   #portfolio-row { 
