@@ -1,55 +1,26 @@
 Responsive Portfolio
-I created a responsive portfolio utilizing Bootstrap v4.5 with three html pages: about me, portfolio and a contact page. Requirements included a functional/deployable application, use of navbar, working links, semantic html and components/grid of Bootstrap. 
 
-Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-
-
-Give examples
-Installing
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-Give the example
-And repeat
-
-until finished
-End with an example of getting some data out of the system or using it for a little demo
-
-Running the tests
-Explain how to run the automated tests for this system
-
-Break down into end to end tests
-Explain what these tests test and why
-
-Give an example
-And coding style tests
-Explain what these tests test and why
-
-Give an example
-Deployment
-Add additional notes about how to deploy this on a live system
+I created a responsive portfolio utilizing Bootstrap v4.5 with three html pages: about me, portfolio and a contact page. Requirements included a functional/deployable application, use of navbar, working links, semantic html and components/grid of Bootstrap. This page will be used to upload projects completed in this course and as a personal portfolio to show future potential employers. 
 
 Built With
-Dropwizard - The web framework used
-Maven - Dependency Management
-ROME - Used to generate RSS Feeds
-Contributing
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
+Bootstrap - main framework
+VS Code - added in additional code
+CSS Style Sheet - visual styling
 
-Versioning
-We use SemVer for versioning. For the versions available, see the tags on this repository.
+
+Sources I used in this assignment (Links listed below):
+
+Font Awesome - Social Media Icons - https://fontawesome.com;
+Bootstrap - main framework on this assignment: https://getbootstrap.com;
+W3Schools - Media queries - https://www.w3schools.com/cssref/css3_pr_mediaquery.asp;
+
 
 Authors
-Billie Thompson - Initial work - PurpleBooth
-See also the list of contributors who participated in this project.
+Jaime Harman 
 
 License
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
-Acknowledgments
-Hat tip to anyone whose code was used
-Inspiration
-etc
+Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Please make sure to update tests as appropriate.
